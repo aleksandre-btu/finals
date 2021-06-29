@@ -1,0 +1,35 @@
+.addForm {
+  width: 40%;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  font-size: 22px;
+  height: 500px;
+  justify-content: space-evenly;
+}
+
+.addForm input,
+.addForm textarea {
+  border: 1px solid rgb(54, 54, 251);
+  padding: 10px;
+  font-size: 20px;
+}
+
+.addForm textarea {
+  resize: none;
+  max-height: 23.5px;
+}
+
+.btn {
+  width: 40%;
+  font-size: 20px;
+  margin: 0 auto;
+  background-color: transparent;
+  border: 1px solid rgb(54, 54, 251);
+}
+
+.btn:hover {
+  background-color: rgb(54, 54, 251);
+  cursor: pointer;
+  color: gold;
+}

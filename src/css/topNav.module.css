@@ -1,0 +1,23 @@
+.TopNav {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(54, 54, 251);
+  margin-top: -16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+  color: gold;
+}
+
+.FirstUl,
+.SecondUl {
+  list-style: none;
+  display: inline-flex;
+  padding: 0px;
+}
+
+.FirstUl li,
+.SecondUl li {
+  margin: 0px 20px;
+}
