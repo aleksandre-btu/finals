@@ -9,8 +9,8 @@ const loginSuccess = (state, action) => {
   return updateObject(state, { token: action.token });
 };
 
-const registerSuccess = (state, action) => {
-  return updateObject(state, { token: action.token });
+const registerSuccess = state => {
+  return updateObject(state);
 };
 
 const logoutSuccess = state => {
