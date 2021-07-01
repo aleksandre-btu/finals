@@ -4,7 +4,7 @@ import { ProductsContext } from '../context/productsContext';
 import Products from './Products';
 
 const Main = () => {
-  const { docs } = useFirebase();
+  const { docs } = useFirebase('products');
   return (
     <div>
       <ProductsContext.Provider value={docs}>

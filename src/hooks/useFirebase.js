@@ -2,10 +2,10 @@
 import { database } from '../firebase/index';
 import { useEffect, useState } from 'react';
 
-const useFirebase = () => {
+const useFirebase = cat => {
   const [docs, setDocs] = useState([]);
   useEffect(() => {
-    database.ref('products/').on('value', async snap => {
+    database.ref(cat + '/').on('value', async snap => {
       const data = await snap.val();
       const products = [];
       for (let key in data) {

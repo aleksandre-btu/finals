@@ -24,6 +24,7 @@ const AddProduct = () => {
           })
           .then(() => {
             e.target.reset();
+            e.window.redirect('/');
           });
       })}>
       <label className={classes.titleLabel} htmlFor="title">
